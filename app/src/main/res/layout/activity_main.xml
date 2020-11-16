@@ -15,8 +15,7 @@
         android:layout_height="wrap_content"
         android:inputType="number"
         android:layout_marginBottom="10dp"
-        android:hint="ID"
-        android:text="Id" />
+        android:hint="ID"/>
 
     <EditText
         android:id="@+id/edtNome"
@@ -24,8 +23,7 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:layout_marginBottom="10dp"
-        android:hint="Nome"
-        android:text="Nome" />
+        android:hint="Nome" />
 
     <EditText
         android:id="@+id/edtEmpresa"
@@ -33,15 +31,15 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:inputType="text"
-        android:text="Empresa" />
+        android:hint="Empresa"/>
 
     <EditText
         android:id="@+id/edtEstado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:inputType="textPersonName"
-        android:text="Estado" />
+        android:inputType="text"
+        android:hint="Estado"/>
 
     <LinearLayout
         android:layout_width="match_parent"
